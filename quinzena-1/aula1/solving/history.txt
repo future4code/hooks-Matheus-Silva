@@ -1,0 +1,77 @@
+    1  sudo nano /etc/default/grub
+    2  sudo update-grub
+    3  ls
+    4  ls Documents/
+    5  node -v
+    6  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    7  sudo apt install curl
+    8  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+    9  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   10  command -v nvm
+   11  nvm ls-remote
+   12  nvm install 16.13.2
+   13  node -v
+   14  ls
+   15  mkdir studies
+   16  cd studies/
+   17  ls
+   18  mkdir labenu
+   19  cd labenu/
+   20  code .
+   21  ls
+   22  ls
+   23  cat pokemons.txt 
+   24  grep pikachu
+   25  grep pikachu pokemons.txt 
+   26  grep pokemons.txt pikachu
+   27  grep pikachu -i pokemons.txt 
+   28  grep pikachu -B 3 pokemons.txt 
+   29  grep pikachu -B2 pokemons.txt 
+   30  grep pikachu -B 2 pokemons.txt 
+   31  man grep
+   32  grep pikachu pokemons.txt -B 2 -A 3
+   33  grep pikachu pokemons.txt -B 2 
+   34  grep -i pikachu pokemons.txt -B 2 -A 3
+   35  man grep
+   36  grep -i -m 150 pikachu pokemons.txt 
+   37  grep -i -m 15 pikachu pokemons.txt 
+   38  grep -i  pikachu pokemons.txt -m 150
+   39  grep -i  pikachu pokemons.txt -m150
+   40  head pokemons.txt -n 151
+   41  tail pokemons.txt -n 101
+   42  tail pokemons.txt -n 100
+   43  ls
+   44  cd studies/
+   45  ls
+   46  mkdir thm
+   47  mkdir htb
+   48  ls
+   49  tmux
+   50  sudo apt install tmux
+   51  find / type -f -iname "labenu_prog.png" 2>/dev/null
+   52  find / -type f -iname "labenu_prog.png" 2>/dev/null
+   53  sudo apt install rar
+   54  ls
+   55  cd studies/
+   56  ls
+   57  cd labenu/
+   58  ls
+   59  cd praticando-comandos/
+   60  ls
+   61  man unzip 
+   62  unzip assassinato-na-linha-de-comando.zip 
+   63  ls
+   64  cd assassinato-na-linha-de-comando/
+   65  ls
+   66  file inicio 
+   67  cat inicio 
+   68  cd ..
+   69  ls
+   70  rm -r __MACOSX/
+   71  ls
+   72  cd assassinato-na-linha-de-comando/
+   73  ls
+   74  mkdir solving
+   75  tmux
+   76  history
+   77  history > solving/history.txt

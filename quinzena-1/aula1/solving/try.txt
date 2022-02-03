@@ -1,0 +1,78 @@
+PISTA: A filmagem do caixa eletrônico está embaçada, mas mostra que o suspeito é um homem alto, pelo menos 1,83m de altura.
+PISTA: Encontramos uma carteira que provavelmente pertence ao assassino. Nenhum documento de identidade, apenas alguns trocados e carteirinhas dos grupos AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash. Impossível rastrear as carteirinhas, e nenhuma delas possui nome, por algum motivo.
+PISTA: Interrogamos o garçom da cafeteria próxima à cena. Ele disse que uma mulher saiu da cafeteria logo antes de ouvirem os tiros. O nome dela era Annabel, tinha cabelo loiro curto e um sotaque da Nova Zelândia.
+
+Entrevistamos a Srta. Church às 14:04. A testemunha afirmou que não viu ninguém com as características do atirador e que saiu correndo assim que os tiros foram disparados.
+
+No entanto, ela reportou que viu um carro fugindo da cena do crime. Descreveu como um Honda azul, com placa que começa com "L337" e termina com "9".
+
+Marca: Honda
+Cor: Azul
+Proprietário: Aurelie Kirkham
+Altura: 1,8 m
+Peso: 95,3 kg
+
+Aurelie Kirkham F       87      Lawndale Terrace, linha 410
+
+Placa L337ZR9
+Marca: Honda
+Cor: Vermelho
+Proprietário: Katie Park
+Altura: 1,88 m
+Peso: 85,7 kg
+
+Katie Park      F       49      Rua Fayston, linha 134
+
+Placa L337ZR9
+Placa L337P89
+Placa L337GX9
+Placa L337QE9
+Placa L337GB9
+Placa L337OI9
+Placa L337X19
+Placa L337539
+Placa L3373U9
+Placa L337369
+Placa L337DV9
+Placa L3375A9
+Placa L337WR9
+
+
+Placa L337WR9
+Marca: Honda
+Cor: Azul
+Proprietário: Jacqui Maher
+Altura: 1,88 m
+Peso: 59,0 kg
+
+Jacqui Maher    F       40      Travessa Andover, linha 224
+
+Joe Germuska    M       65      Rua Plainfield, linha 275
+entrevista: 29741223
+
+Jeremy Bowers   M       34      Travessa Dunstable, linha 284
+entrevista: 9620713
+
+A casa parece estar vazia. Não houve resposta quando batemos na porta.
+
+Após questionar os vizinhos, parece que o morador viajou recentemente.
+
+Será considerado um suspeito até que se prove o contrário, mas teríamos que eliminar outros suspeitos para ter certeza.
+
+
+Aron Pilhofer   M       16      Rua Claybourne, linha 145
+entrevista: 1767435
+Too short to match the camera footage.  Pilhofer is not considered a suspect.
+
+Jeremy Bowers is considered a suspect. No one else appear to be guilty...
+Jeremy Bowers appears to be a member of AAA
+grep "Jeremy Bowers" AAA
+Jeremy Bowers
+
+grep "Jeremy Bowers" Museu_da_História_do_Bash
+Jeremy Bowers
+
+grep "Jeremy Bowers" Delta_SkyMiles
+Jeremy Bowers
+
+
