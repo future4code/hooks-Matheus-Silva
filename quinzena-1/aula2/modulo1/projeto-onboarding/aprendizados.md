@@ -1,6 +1,6 @@
 # Primeira semana
 
-Durante a semana pude revisar alguns comandos do **git** e praticar outros de **cli**.
+Durante a semana pude revisar alguns comandos do **git** e praticar outros de **cli**. Acredito que serão bastante úteis nos próximos meses.
 
 ### Git cmds
 ```
