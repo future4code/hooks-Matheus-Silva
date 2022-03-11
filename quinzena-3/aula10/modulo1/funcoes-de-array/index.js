@@ -31,11 +31,6 @@ const petsSalsicha = pets.filter (pets => {
 // A mensagem deve ser: "Você ganhou um cupom de desconto de 10% para tosar o/a `[NOME]`!"
 const petsPoodle = pets.filter (pets => {
     return pets.raca === "Poodle"
+}).map(petPoodle => {
+    return `Você ganhou um cupom de desconto de 10% para tosar o/a ${petPoodle.nome}`;
 })
-
-const petsPoodleMsg = []
-for (let i = 0; i < petsPoodle.length; i++) {
-    let string = "Você ganhou um cupom de desconto de 10% para tosar o/a " + petsPoodle[i].nome;
-    petsPoodleMsg[i] = string
-
-}
