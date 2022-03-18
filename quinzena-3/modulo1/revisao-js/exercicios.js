@@ -68,8 +68,13 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-    
- 
+    const paresElevados = []
+    array.forEach(element => {
+        if (element % 2 === 0) {
+            paresElevados.push(element ** 2)
+        }
+    }) 
+    return paresElevados
 }
 
 // EXERCÍCIO 06
