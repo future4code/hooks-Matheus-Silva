@@ -85,6 +85,17 @@ function retornaMaiorNumero(array) {
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
+    let maiorNumero = Math.max(num1, num2)
+    let menorNumero;
+    if (maiorNumero === num1) {
+        menorNumero = num2
+    } else {
+        menorNumero = num1
+    }
+    maiorDivisivelPorMenor = maiorNumero % menorNumero === 0 ? true : false;
+    let diferenca = maiorNumero - menorNumero;
+    
+    return {maiorNumero, maiorDivisivelPorMenor, diferenca}
 
 }
 
