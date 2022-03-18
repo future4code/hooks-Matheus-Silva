@@ -10,21 +10,65 @@ function retornaTamanhoArray(array) {
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+  reversed_array = [];
+  array.forEach(element => {
+      reversed_array.unshift(element)
+  })
+  return reversed_array  
 }
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
+    
+    const divideArray = array => {
+        if (array.length <= 1) {
+            return array
+        }
+
+        const mediana = Math.floor(array.length / 2)
+
+        const esquerda = array.slice(0, mediana);
+        const direita = array.slice(mediana);
+
+        return ordenaArray(divideArray(esquerda), divideArray(direita))
+
+    }
+
+    const ordenaArray = (esquerda, direita) => {
+
+    let arrayOrdenado = [], indexEsquerda = 0, indexDireita = 0; 
+    while (indexEsquerda < esquerda.length && indexDireita < direita.length) {
+        if (esquerda[indexEsquerda] < direita[indexDireita]) {
+            arrayOrdenado.push(esquerda[indexEsquerda]);
+            indexEsquerda++
+        } else {
+            arrayOrdenado.push(direita[indexDireita]);
+            indexDireita++
+        }
+    }
+
+    return arrayOrdenado.concat(esquerda.slice(indexEsquerda)).concat(direita.slice(indexDireita))
+
+    }   
+
+    return divideArray(array)
   
 }
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+    const pares = []
+    array.forEach(element => {
+        if (element % 2 === 0) {
+            pares.push(element)
+        }   
+    })
+    return pares
 }
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
+    
  
 }
 
