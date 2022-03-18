@@ -130,7 +130,28 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+    if (array.length < 2) {
+        return null
+    } else if (array.length === 2) {
+        return array.sort()
+    }
+
+    const uniqArray = []
+
+    array.sort((a, b) => a - b).reverse().forEach(element => {
+        if (!uniqArray.includes(element)) {
+            uniqArray.push(element)
+        }
+    })
+
+    const secondElements = []
+    for (let i=0; i < uniqArray.length; i++) {
+        if (i == 1 || i == uniqArray.length - 2) {
+            secondElements.push(uniqArray[i])
+        }
+    }
+    return secondElements
+
 }
 
 // EXERCÍCIO 11
