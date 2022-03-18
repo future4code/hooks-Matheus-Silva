@@ -94,14 +94,23 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
     }
     maiorDivisivelPorMenor = maiorNumero % menorNumero === 0 ? true : false;
     let diferenca = maiorNumero - menorNumero;
-    
+
     return {maiorNumero, maiorDivisivelPorMenor, diferenca}
 
 }
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+    const primeirosPares = []
+    let count = 0
+    while (n > 0) {
+        primeirosPares.push(count)
+        count += 2;
+        n--;
+    }
+    
+    return primeirosPares
+
 }
 
 // EXERCÍCIO 09
