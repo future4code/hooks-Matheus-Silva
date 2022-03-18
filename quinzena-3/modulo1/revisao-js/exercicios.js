@@ -184,6 +184,18 @@ function retornaPessoasNaoAutorizadas(pessoas) {
 
 // EXERCÍCIO 14
 function retornaContasComSaldoAtualizado(contas) {
+    for (let i = 0; i < contas.length; i++) {
+        let totalValue = 0 
+        contas[i].compras.forEach(value => {
+            totalValue += value
+        })
+        
+        contas[i].saldoTotal -= totalValue
+        while( typeof (j = contas[i].compras.shift()) !== 'undefined' ) {
+            continue
+        }
+    }
+    return contas
 
 }
 
