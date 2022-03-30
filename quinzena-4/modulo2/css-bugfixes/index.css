@@ -58,8 +58,10 @@ div img {
     text-align: center;
 }
 
-.icone {
+.icone:after {
     height: 15px;
+    content: '\1F50D';
+    display: inline;
 }
 
 
