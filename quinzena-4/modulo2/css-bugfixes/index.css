@@ -110,8 +110,9 @@ div:last-child {
 }
 
 table {
-    width: 70%;
-    text-align: center;
+    width: 60%;
+    margin-left: 150px;
+    margin-right: auto;
 }
 
 td button {
@@ -141,6 +142,8 @@ img {
     border-radius: 5px;
     font-size: 10px;
     color: black;
+    margin-left: 650px;
+    margin-right: auto;
     
 }
 
