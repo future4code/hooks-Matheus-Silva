@@ -49,8 +49,12 @@ div img {
     color: white;
 }
 
+.botao-amarelo a {
+    color: #e7eb90;
+}
+
 .botao-amarelo:hover {
-    background-color: #c44f00;
+    background-color: #a54302;
 }
 
 .container {
@@ -140,5 +144,9 @@ img {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: #3b3624
+}
+
+#back-button a {
+    color: #e7eb90;
 }
