@@ -1,0 +1,156 @@
+/** 
+  *
+  *  ESTILOS GERAIS 
+  *
+  **/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    background-color: #fe7e02;
+    padding: 10px 5px 10px 5px;
+    color: white;
+    text-align: center;
+}
+
+input {
+    height: 20px;
+    width: 500px;
+}
+
+button:focus {
+    color: white;
+}
+
+img {
+    width: 100px;
+}
+
+div>p:first-child {
+    display: inline;
+}
+
+div img {
+    background: #f6f4f4;
+}
+
+.botao-amarelo {
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    background-color: #ffaf43;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+.botao-amarelo a {
+    color: #e7eb90;
+}
+
+.botao-amarelo:hover {
+    background-color: #a54302;
+}
+
+.container {
+    height: 500px;
+    text-align: center;
+}
+
+.icone:after {
+    height: 15px;
+    content: '\1F50D';
+    display: inline;
+}
+
+
+/** 
+  *
+  *  ESTILOS HOME 
+  *
+  **/
+
+#container-de-descricao {
+    background-color: #2274a5;
+    color: white;
+    padding-top: 75px;
+}
+
+#container-de-descricao>ol {
+    text-align: center;
+    padding: 15px 600px;
+}
+
+#container-para-comprar {
+    background-color: #e7eb90;
+}
+
+#container-para-comprar>p {
+    color: #c44f00;
+    padding: 100px 0;
+    font-size: 60px;
+}
+
+
+/**
+  *
+  *  ESTILOS COMPRAR 
+  *
+  **/
+
+div:nth-child(2),
+div:last-child {
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin-left: 150px;
+    margin-right: auto;
+}
+
+td button {
+    background-color: #fadf63;
+    width: 150px;
+    height: 30px;
+    border-bottom: 10px;
+    color: black;
+}
+
+.container-do-search {
+    margin-top: 20px;
+    height: 100px;
+}
+
+img {
+    width: 75px;
+    margin-left: 250px;
+}
+
+
+#back-button {
+    background-color: white;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 10px;
+    color: black;
+    margin-left: 650px;
+    margin-right: auto;
+    
+}
+
+#back-button:hover {
+    background-color: #3b3624
+}
+
+#back-button a {
+    color: #e7eb90;
+}

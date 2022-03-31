@@ -1,0 +1,48 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+a {
+    -webkit-transition: color 2s;
+    transition: color 2s;
+}
+
+a:hover {
+    color: #4C4551;
+}
+
+img {
+    padding-left: 30px;
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.fixed_header, .fixed_footer {
+    width: 100%;
+    position: fixed;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.fixed_header {
+    top: 0;
+}
+
+.fixed_footer {
+    bottom: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
