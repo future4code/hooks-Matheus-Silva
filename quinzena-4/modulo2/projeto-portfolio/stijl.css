@@ -1,0 +1,76 @@
+body {
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    align-items: center;
+    background-color: black;
+    background-image: radial-gradient(
+        #333639, black 120%
+        );
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 1rem;
+    color: #00CC66;
+    font-family: league-mono, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: repeating-linear-gradient(
+        0deg,
+        rgba(black, 0.15),
+        rgba(black, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+        );
+        pointer-events: none;
+    }
+}
+::selection {
+background: #CC6633;
+text-shadow: none;
+}
+pre {
+margin: 0;
+}
+
+header, footer {
+    position: fixed;
+    padding: 10px 0;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+img {
+    height: 500px;
+}
+
+main {
+    grid-column-start: 1;
+    grid-row-start: 2;
+} 
+
+.menu {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    row-gap: 5px;
+    column-gap: 10px;
+    align-items: baseline;
+}
+
+nav a {
+    display: flex;
+    flex-direction: column;
+    color: azure;
+}
