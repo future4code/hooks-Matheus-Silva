@@ -41,6 +41,11 @@ a {
     padding: 100px;
 }
 
+.player video {
+    width: 80%;
+    height: 60%;
+}
+
 footer {
     display: flex;
     align-items: center;
