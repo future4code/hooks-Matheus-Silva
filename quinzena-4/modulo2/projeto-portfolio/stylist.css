@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(
+        #333639, black 120%
+        );
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 1rem;
+    color: #00CC66;
+    font-family: league-mono, monospace;
+    text-shadow: 0 0 5px #C8C8C8;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: repeating-linear-gradient(
+        0deg,
+        rgba(black, 0.15),
+        rgba(black, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+        );
+        pointer-events: none;
+    }
+}
+::selection {
+background: #CC6633;
+text-shadow: none;
+}
+pre {
+margin: 0;
+}
+
+a, p {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+a {
+    padding-top: 30px;
+    color: azure;
+}
+.reachUs {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+.content img {
+    height: 300px;
+    padding: 100px;
+    padding-left: 375px;
+}
+
+.whathavaidone {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    padding-top: 200px;
+}
