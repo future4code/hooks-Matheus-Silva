@@ -1,0 +1,8 @@
+.App {
+  font-family: monospace;
+  font-size: large;
+  text-align: center;
+  background-color: #121214;
+  color: #9c9cc2;
+  min-height: 100vh;
+}
