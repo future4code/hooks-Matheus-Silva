@@ -1,15 +1,12 @@
 import React from "react";
+import { SendButton } from "./stijl";
 
 
 export class Enviar extends React.Component {
     render () {
         return (
             <div>
-                <button style={{
-                    backgroundColor:'#8257e6',
-                    border: 0,
-                    padding: '6px 12px',
-                }}>Enviar</button>
+                <SendButton>Enviar</SendButton>
             </div>
         )
     }
