@@ -2,14 +2,7 @@ import React from 'react';
 import './App.css';
 import { SendButton } from "./components/stijl";
 import { Head } from "./components/stijl";
-import { Main } from "./components/stijl";
-
-// import styled from "styled-components";
-// import { Textbox } from './components/Textbox';
-// import { Enviar } from './components/Enviar';
-// import { Msg } from './components/Msg';
-// import { Usuario } from './components/Usuario';
-
+// import { Main } from "./components/stijl";
 
 export default class App extends React.Component {
   state = {
@@ -39,7 +32,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <>
+      <body>
       <Head 
       style={
         { display: 'flex',
@@ -69,7 +62,7 @@ export default class App extends React.Component {
           }}>Enviar Mensagem
         </SendButton>
       </Head>
-      <Main 
+      <main 
       // style={
       //   { display: 'flex',
       //     flexDirection: 'column',
@@ -97,18 +90,7 @@ export default class App extends React.Component {
             </>
           );
         })}
-      </Main>
-      </>);
+      </main>
+      </body>);
   }
 } 
-
-
-// function App() {
-//   return (
-//     <div>
-      
-//     </div>
-//   );
-// }
-
-// export default App;

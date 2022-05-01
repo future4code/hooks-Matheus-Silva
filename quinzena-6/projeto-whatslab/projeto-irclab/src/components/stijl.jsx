@@ -22,16 +22,16 @@ export const Head = styled.div`
 
 `
 
-export const Main = styled.div`
-    display: 'flex';
-    flex-direction: 'column';
-    margin-left: '30%';
-    min-height: '80vh';
-    max-width: '40vw';
-    color: '#e1e1f6';
-    align-items: 'baseline';
-    justify-content: 'center';
-    border: '2px solid purple';
-    padding: 10;
+// export const Main = styled.div`
+//     display: 'flex';
+//     flex-direction: 'column';
+//     margin-left: '30%';
+//     min-height: '80vh';
+//     max-width: '40vw';
+//     color: '#e1e1f6';
+//     align-items: 'baseline';
+//     justify-content: 'space-between';
+//     border: '2px solid purple';
+//     padding: 10;
     
-`
+// `
